@@ -68,6 +68,7 @@ while True:
         # 使用 tabulate 進行格式化顯示
         print(f"\n總共有 {len(result_df)} 檔漲幅超過 9%：\n")
         print(tabulate(result_df, headers='keys', tablefmt='fancy_grid', showindex=False))
+
     else:
         print("目前沒有超過 9% 漲幅的股票。")
 
